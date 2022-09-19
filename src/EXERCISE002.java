@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 import ControlClasses.Control;
-import MathClasses.Constants;
+import MathClasses.Constant;
 
 /* Instructions:
  * 1. Create a height formula
@@ -11,7 +11,7 @@ import MathClasses.Constants;
 
 public class EXERCISE002 {
   public static float height(float time) {
-    return (float) (0.5 * Constants.G * Math.pow(time, 2));
+    return (float) (0.5 * Constant.G * Math.pow(time, 2));
   }
 
   public static void report(float x) {
