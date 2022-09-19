@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 import ControlClasses.Control;
-import MathClasses.Constants;
+import MathClasses.Constant;
 
 /* Instructions:
  * 1. Use a cilinder volume formula
@@ -11,7 +11,7 @@ import MathClasses.Constants;
 
 public class EXERCISE003 {
   public static float getCilinderVolume(float radius, float height) {
-    return Constants.PI * (float) (Math.pow(radius, 2)) * height;
+    return Constant.PI * (float) (Math.pow(radius, 2)) * height;
   }
 
   public static void report(float x) {
