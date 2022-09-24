@@ -17,6 +17,8 @@ public class EXERCISE010 {
     float capital, interestRate, interest;
     int nYears;
     do {
+      System.out.println("\033[H\033[2J");
+      System.out.flush();
       // INPUT
       do {
         System.out.print("Enter a capital: ");
