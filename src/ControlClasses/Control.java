@@ -3,8 +3,9 @@ package ControlClasses;
 import java.util.Scanner;
 
 public class Control {
+  public static Scanner sc = new Scanner(System.in);
+  
   public static boolean control() {
-    Scanner sc = new Scanner(System.in);
     char resp = ' ';
     do {
       System.out.print("\nDo you want to restart the program? (y/n): ");
