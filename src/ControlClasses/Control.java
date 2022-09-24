@@ -15,4 +15,9 @@ public class Control {
       return true;
     return false;
   }
+
+  public static void clearTerminal() {
+    System.out.println("\033[H\033[2J");
+    System.out.flush();
+  }
 }
